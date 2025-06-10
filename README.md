@@ -36,6 +36,19 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    npm install -g live-server
    ```
+3. Make a virtual enviroment
+   Make sure you have python installed. Then, run a terminal and set at this respository.
+   ```sh
+   pip install virtualenv
+   py -m venv venv
+   ```
+   Restart your terminal. It should be open in the virtual enviroment.
+4. Install the other dependencies.
+   ```sh
+   pip install django
+   pip install djangorestframework
+   pip install django-cors-headers
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -47,7 +60,7 @@ In one terminal run
 ```sh
  live-server
 ```
-In another one, run
+In another one, at same time, run
 ```sh
 py manage.py runserver
 ```
